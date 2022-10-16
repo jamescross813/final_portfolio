@@ -1,9 +1,9 @@
 import React from 'react';
-import { NavLink, Link } from 'react-bootstrap';
+import { NavLink, Link } from 'react-router-dom';
 
 const NavBarComponent = () => {
   return (
-    <div className="navbar-nav navbar-expand-lg navbar-light bg-light">
+    <div className="navbar-nav navbar-expand-lg navbar-dark bg-dark">
         <NavLink
             to="/"
             exact
