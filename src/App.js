@@ -9,7 +9,7 @@ import ProjectsComponent from "./components/ProjectsComponent";
 function App() {
   return (
     <div className="App">
-      
+     <div className="container"> 
       <header className="App-header">
               <HeaderComponent/> 
       </header>
@@ -19,6 +19,7 @@ function App() {
         <Route to exact path ="/blogs" component = {BlogsComponent} />
         <Route to exact path = "/projects" component = {ProjectsComponent} />
       </Router>
+    </div>
     </div>
   );
 }
