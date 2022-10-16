@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 
 const NavBarComponent = () => {
   return (
-    <div className="navbar-nav navbar-dark bg-dark">
+    <div className="navbar-nav navbar-dark bg-dark w-25 p-3 text-center">
         <NavLink
             to="/"
             exact
@@ -40,6 +40,7 @@ const NavBarComponent = () => {
             LinkdIn
         </a>
     </div>
+
   );
 };
 
