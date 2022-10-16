@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-bootstrap';
 
 const NavBarComponent = () => {
   return (
-    <div className="navbar">
+    <div className="navbar-nav">
         <NavLink
             to="/"
             exact
