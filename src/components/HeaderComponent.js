@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import header from "../images/planets-drawing-facebook-cover.jpg"
+import header from "../images/me pic.png"
 
 class HeaderComponent extends Component{
     render(){
