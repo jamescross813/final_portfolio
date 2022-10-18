@@ -5,10 +5,20 @@ import NavBarComponent from "./NavBarComponent"
 class BaseComponent extends Component{
     render(){
         return(
-            <>
-                <NavBarComponent />
-                {/* <HeaderComponent /> */}
-            </> 
+            <div classname = "container"> 
+            <div className="row">
+                <div className="column">
+                    <BaseComponent/>
+                </div>
+                
+                <div className="column w-25">
+                    <HeaderComponent/>
+                </div>
+                <div className="column w-25">
+                    
+                </div>
+            </div>
+        </div>
         )
     }
 } 
