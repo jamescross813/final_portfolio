@@ -7,7 +7,7 @@ class BaseComponent extends Component{
         return(
             <>
                 <NavBarComponent />
-                <HeaderComponent />
+                {/* <HeaderComponent /> */}
             </> 
         )
     }
