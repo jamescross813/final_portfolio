@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 
 const NavBarComponent = () => {
   return (
-    <div className="navbar-nav navbar-dark bg-dark text-center">
+    <div className="navbar-nav bg-dark text-center">
         <NavLink
             to="/"
             exact
