@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import BaseComponent from "./BaseComponent"
-import HeaderComponent from "./HeaderComponent"
 
 class AboutComponent extends Component{
     render(){

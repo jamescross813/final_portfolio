@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import HeaderComponent from "./HeaderComponent"
-import NavBarComponent from "./NavBarComponent"
 
 class BaseComponent extends Component{
     render(){
@@ -13,9 +12,6 @@ class BaseComponent extends Component{
                 
                 <div className="column w-25">
                     <HeaderComponent/>
-                </div>
-                <div className="column w-25">
-                    
                 </div>
             </div>
         </div>
