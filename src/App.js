@@ -9,7 +9,7 @@ import ProjectsComponent from "./components/ProjectsComponent";
 function App() {
   return (
     <div className="App">
-     <div className="container"> 
+     <div className="container bg-dark"> 
       <Router>
         
         <Route to exact path = "/" component = {AboutComponent} />
