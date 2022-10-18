@@ -5,8 +5,10 @@ import NavBarComponent from "./NavBarComponent"
 class BaseComponent extends Component{
     render(){
         return(
-            <><NavBarComponent />
-            <HeaderComponent /></> 
+            <>
+                <NavBarComponent />
+                <HeaderComponent />
+            </> 
         )
     }
 } 
