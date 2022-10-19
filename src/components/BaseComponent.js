@@ -5,17 +5,15 @@ import NavBarComponent from "./NavBarComponent"
 class BaseComponent extends Component{
     render(){
         return(
-            <div classname = "container"> 
-            <div className="row">
-                <div className="column w-25">
+            <>
+                <div className="col-sm-3">
                     <NavBarComponent/>
                 </div>
                 
-                <div className="column w-25">
+                <div className="col-sm-3">
                     <HeaderComponent/>
                 </div>
-            </div>
-        </div>
+         </>
         )
     }
 } 
