@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import BaseComponent from "./BaseComponent"
+import HeaderComponent from "./HeaderComponent"
 
 class AboutComponent extends Component{
     render(){
         return(
             <>
             <div className="row">
-                <BaseComponent/>
+                <HeaderComponent/>
                 <div className="col-sm-4 text-light">
                             <h1 className="title">About</h1>
                                 <p className="row">Hi! My name is James Cross. I'm a Geek, a Nerd and a Coder.</p>
