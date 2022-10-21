@@ -6,41 +6,34 @@ const NavBarComponent = () => {
     <div className="navbar-nav bg-dark text-center">
         <NavLink
             to="/"
-            exact
-            >
+            exact>
             About
         </NavLink>
         <NavLink 
             to="/projects"
-            exact
-            >
+            exact>
           Projects
         </NavLink>
         <NavLink 
             to="/blogs"
-            exact
-            >
+            exact>
             Blogs
         </NavLink>
         <Link>
         <a href=
-          "https://docs.google.com/document/d/19zFdYFqQNTxBDGIn7qVYPMQWJRZM5ePV8UnaA7_bIY4/edit"
-          >
+          "https://docs.google.com/document/d/19zFdYFqQNTxBDGIn7qVYPMQWJRZM5ePV8UnaA7_bIY4/edit">
           Resume  
           </a>
           </Link>
         <a href=
-           "https://github.com/jamescross813"
-            >
+           "https://github.com/jamescross813">
             GitHub
         </a>
         <a href=
-           "https://www.linkedin.com/in/jamescross813/"
-            >
+           "https://www.linkedin.com/in/jamescross813/">
             LinkdIn
         </a>
     </div>
-
   );
 };
 
