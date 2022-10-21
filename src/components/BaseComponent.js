@@ -6,9 +6,9 @@ class BaseComponent extends Component{
     render(){
         return(
             <>
-                    <div className="col-sm-4">
+                    {/* <div className="col-sm-4">
                         <NavBarComponent/>
-                    </div>
+                    </div> */}
                     
                     <div className="col-sm-4">
                         <HeaderComponent/>

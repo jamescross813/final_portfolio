@@ -8,10 +8,10 @@ import ProjectsComponent from "./components/ProjectsComponent";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-dark">
      <div className="container bg-dark">
       <Router>
-        
+        <NavBarComponent/>
         <Route to exact path = "/" component = {AboutComponent} />
         <Route to exact path ="/blogs" component = {BlogsComponent} />
         <Route to exact path = "/projects" component = {ProjectsComponent} />
